@@ -21,18 +21,18 @@ class CustomDataset(Dataset):
     def __getitem__(self, index):
         
         text = self.text[index]
-        source = self.tokenizer(self.task_prefix + text[:self.max_len], 
-                                padding="max_length",
+        source = self.tokenizer.encode(self.task_prefix + text[:self.max_len], 
+                                padding='max_length',
                                 max_length=self.max_len + len(self.task_prefix),
                                 truncation=True,
                                 return_tensors="pt")
-        target = self.tokenizer(text[:self.max_len][::-1],
-                                padding="max_length",
-                                max_length=self.max_len,
+        target = self.tokenizer.encode(text[:self.max_len][::-1] + self.tokenizer.eos_token,
+                                padding='max_length',
+                                max_length=self.max_len + len(self.tokenizer.eos_token),
                                 truncation=True,
                                 return_tensors="pt")
-        input_ids = source['input_ids'].squeeze()
-        labels = target['input_ids'].squeeze()
+        input_ids = source.squeeze()
+        labels = target.squeeze()
         
         return {
             'input_ids': input_ids,
@@ -71,7 +71,7 @@ def validate(model, device, loader, tokenizer, max_len):
 
             input_ids = data['input_ids'].to(device)
             labels = data['labels'].to(device)
-            generated_ids = model.generate(input_ids=input_ids, max_length=max_len)
+            generated_ids = model.generate(input_ids=input_ids, max_length=max_len + len(tokenizer.eos_token))
             preds = [tokenizer.decode(g, skip_special_tokens=True) for g in generated_ids]
             target = [tokenizer.decode(t, skip_special_tokens=True) for t in labels]
             
@@ -128,10 +128,13 @@ def main(args):
     for epoch in range(args.epochs):
         print('Epoch', epoch)
         train(model, device, training_loader, tokenizer, optimizer)
-        predictions, actuals = validate(model, device, val_loader, tokenizer, args.max_len)
+        predictions_rev, actuals_rev = validate(model, device, val_loader, tokenizer, args.max_len)
         print('Generating Text')
-        final_df = pd.DataFrame({'Generated Text': predictions, 'Actual Reversed Text': actuals})
-        final_df.to_csv('predictions_' + str(epoch) + '.csv')
+        predictions = [text[::-1] for text in predictions_rev]
+        actuals = [text[::-1] for text in actuals_rev]
+        final_df = pd.DataFrame({'Actual Text': actuals, 'Generated Text (Reversed)': predictions,
+                                 'Actual Text (Reversed)': actuals_rev, 'Generated Text': predictions_rev})
+        final_df.to_csv('predictions_' + str(epoch) + '.csv', index=False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="T5 fine-tuning for reverse-english generation", add_help=True)
