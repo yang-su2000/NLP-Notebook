@@ -1,0 +1,542 @@
+Namespace(batch_size=8, epochs=20, hidden_size=32, input_size=1, lr=0.001, max_len=128, output_size=1, plot_len=10, seed=42, seq_len=3, train_split=0.5)
+device cpu
+Epoch 0
+[Training...]
+Completed 0 Batches, Loss: 14.906600952148438
+Completed 1 Batches, Loss: 26.775100708007812
+Completed 2 Batches, Loss: 21.30290412902832
+Completed 3 Batches, Loss: 23.406158447265625
+Completed 4 Batches, Loss: 23.578283309936523
+Completed 5 Batches, Loss: 20.681610107421875
+Completed 6 Batches, Loss: 20.50600814819336
+Completed 7 Batches, Loss: 18.846355438232422
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 1
+[Training...]
+Completed 0 Batches, Loss: 16.47633934020996
+Completed 1 Batches, Loss: 15.216395378112793
+Completed 2 Batches, Loss: 18.476360321044922
+Completed 3 Batches, Loss: 12.918205261230469
+Completed 4 Batches, Loss: 16.180221557617188
+Completed 5 Batches, Loss: 14.7872953414917
+Completed 6 Batches, Loss: 8.170868873596191
+Completed 7 Batches, Loss: 9.633561134338379
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 2
+[Training...]
+Completed 0 Batches, Loss: 6.1234283447265625
+Completed 1 Batches, Loss: 8.970130920410156
+Completed 2 Batches, Loss: 8.74073600769043
+Completed 3 Batches, Loss: 8.943398475646973
+Completed 4 Batches, Loss: 4.89717435836792
+Completed 5 Batches, Loss: 6.217867374420166
+Completed 6 Batches, Loss: 4.120737552642822
+Completed 7 Batches, Loss: 3.5012331008911133
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 3
+[Training...]
+Completed 0 Batches, Loss: 3.024332046508789
+Completed 1 Batches, Loss: 1.4927997589111328
+Completed 2 Batches, Loss: 0.4873392879962921
+Completed 3 Batches, Loss: 0.5250791907310486
+Completed 4 Batches, Loss: 0.7502143979072571
+Completed 5 Batches, Loss: 2.198119878768921
+Completed 6 Batches, Loss: 2.7540037631988525
+Completed 7 Batches, Loss: 1.9309724569320679
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 4
+[Training...]
+Completed 0 Batches, Loss: 3.363743543624878
+Completed 1 Batches, Loss: 2.996378183364868
+Completed 2 Batches, Loss: 4.006535053253174
+Completed 3 Batches, Loss: 2.7974770069122314
+Completed 4 Batches, Loss: 1.9992526769638062
+Completed 5 Batches, Loss: 2.8229713439941406
+Completed 6 Batches, Loss: 2.930657148361206
+Completed 7 Batches, Loss: 1.6815382242202759
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 5
+[Training...]
+Completed 0 Batches, Loss: 1.5332084894180298
+Completed 1 Batches, Loss: 1.2303370237350464
+Completed 2 Batches, Loss: 0.5304197072982788
+Completed 3 Batches, Loss: 0.298492968082428
+Completed 4 Batches, Loss: 0.43185123801231384
+Completed 5 Batches, Loss: 0.7537057995796204
+Completed 6 Batches, Loss: 0.9087430834770203
+Completed 7 Batches, Loss: 1.0911778211593628
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 6
+[Training...]
+Completed 0 Batches, Loss: 0.7910091876983643
+Completed 1 Batches, Loss: 0.6429893374443054
+Completed 2 Batches, Loss: 0.42688432335853577
+Completed 3 Batches, Loss: 0.191913440823555
+Completed 4 Batches, Loss: 0.4739370346069336
+Completed 5 Batches, Loss: 0.45358729362487793
+Completed 6 Batches, Loss: 0.41908976435661316
+Completed 7 Batches, Loss: 0.41822102665901184
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 7
+[Training...]
+Completed 0 Batches, Loss: 0.23564250767230988
+Completed 1 Batches, Loss: 0.26759472489356995
+Completed 2 Batches, Loss: 0.29515448212623596
+Completed 3 Batches, Loss: 0.26630330085754395
+Completed 4 Batches, Loss: 0.23596413433551788
+Completed 5 Batches, Loss: 0.1742699146270752
+Completed 6 Batches, Loss: 0.2152661830186844
+Completed 7 Batches, Loss: 0.33778876066207886
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 8
+[Training...]
+Completed 0 Batches, Loss: 0.33968982100486755
+Completed 1 Batches, Loss: 0.4376172125339508
+Completed 2 Batches, Loss: 0.14140836894512177
+Completed 3 Batches, Loss: 0.29283812642097473
+Completed 4 Batches, Loss: 0.29109442234039307
+Completed 5 Batches, Loss: 0.2907962203025818
+Completed 6 Batches, Loss: 0.17561650276184082
+Completed 7 Batches, Loss: 0.1746864914894104
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 9
+[Training...]
+Completed 0 Batches, Loss: 0.24442219734191895
+Completed 1 Batches, Loss: 0.3196132183074951
+Completed 2 Batches, Loss: 0.32636913657188416
+Completed 3 Batches, Loss: 0.25506600737571716
+Completed 4 Batches, Loss: 0.14873243868350983
+Completed 5 Batches, Loss: 0.2070239931344986
+Completed 6 Batches, Loss: 0.17623038589954376
+Completed 7 Batches, Loss: 0.10675482451915741
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 10
+[Training...]
+Completed 0 Batches, Loss: 0.18451054394245148
+Completed 1 Batches, Loss: 0.1506807804107666
+Completed 2 Batches, Loss: 0.13599379360675812
+Completed 3 Batches, Loss: 0.18015360832214355
+Completed 4 Batches, Loss: 0.1473759561777115
+Completed 5 Batches, Loss: 0.11017632484436035
+Completed 6 Batches, Loss: 0.14171986281871796
+Completed 7 Batches, Loss: 0.11934687197208405
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 11
+[Training...]
+Completed 0 Batches, Loss: 0.08686283975839615
+Completed 1 Batches, Loss: 0.09751778841018677
+Completed 2 Batches, Loss: 0.09971066564321518
+Completed 3 Batches, Loss: 0.11904632300138474
+Completed 4 Batches, Loss: 0.11340352892875671
+Completed 5 Batches, Loss: 0.17404943704605103
+Completed 6 Batches, Loss: 0.15033836662769318
+Completed 7 Batches, Loss: 0.05220559611916542
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 12
+[Training...]
+Completed 0 Batches, Loss: 0.15285593271255493
+Completed 1 Batches, Loss: 0.12005124241113663
+Completed 2 Batches, Loss: 0.04930579662322998
+Completed 3 Batches, Loss: 0.05290694907307625
+Completed 4 Batches, Loss: 0.04993591830134392
+Completed 5 Batches, Loss: 0.17361585795879364
+Completed 6 Batches, Loss: 0.16956622898578644
+Completed 7 Batches, Loss: 0.045504380017519
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 13
+[Training...]
+Completed 0 Batches, Loss: 0.2647183835506439
+Completed 1 Batches, Loss: 0.3384362757205963
+Completed 2 Batches, Loss: 0.34675121307373047
+Completed 3 Batches, Loss: 0.38264453411102295
+Completed 4 Batches, Loss: 0.10940804332494736
+Completed 5 Batches, Loss: 0.1679258942604065
+Completed 6 Batches, Loss: 0.27789798378944397
+Completed 7 Batches, Loss: 0.2773790955543518
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 14
+[Training...]
+Completed 0 Batches, Loss: 0.18291926383972168
+Completed 1 Batches, Loss: 0.06870267540216446
+Completed 2 Batches, Loss: 0.1900375634431839
+Completed 3 Batches, Loss: 0.06382998079061508
+Completed 4 Batches, Loss: 0.16230668127536774
+Completed 5 Batches, Loss: 0.0660867765545845
+Completed 6 Batches, Loss: 0.08940386772155762
+Completed 7 Batches, Loss: 0.032033029943704605
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 15
+[Training...]
+Completed 0 Batches, Loss: 0.029241284355521202
+Completed 1 Batches, Loss: 0.029802560806274414
+Completed 2 Batches, Loss: 0.04153760150074959
+Completed 3 Batches, Loss: 0.030944326892495155
+Completed 4 Batches, Loss: 0.0420377254486084
+Completed 5 Batches, Loss: 0.0190432071685791
+Completed 6 Batches, Loss: 0.10729778558015823
+Completed 7 Batches, Loss: 0.025674184784293175
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 16
+[Training...]
+Completed 0 Batches, Loss: 0.03457124903798103
+Completed 1 Batches, Loss: 0.024921318516135216
+Completed 2 Batches, Loss: 0.11444532871246338
+Completed 3 Batches, Loss: 0.2020682841539383
+Completed 4 Batches, Loss: 0.058821916580200195
+Completed 5 Batches, Loss: 0.140393927693367
+Completed 6 Batches, Loss: 0.2071821689605713
+Completed 7 Batches, Loss: 0.23128338158130646
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 17
+[Training...]
+Completed 0 Batches, Loss: 0.04225349426269531
+Completed 1 Batches, Loss: 0.1787737011909485
+Completed 2 Batches, Loss: 0.28780218958854675
+Completed 3 Batches, Loss: 0.36244675517082214
+Completed 4 Batches, Loss: 0.25461798906326294
+Completed 5 Batches, Loss: 0.06393035501241684
+Completed 6 Batches, Loss: 0.2632184326648712
+Completed 7 Batches, Loss: 0.3818930387496948
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 18
+[Training...]
+Completed 0 Batches, Loss: 0.3452982008457184
+Completed 1 Batches, Loss: 0.3128962516784668
+Completed 2 Batches, Loss: 0.1772599220275879
+Completed 3 Batches, Loss: 0.07464786618947983
+Completed 4 Batches, Loss: 0.2414286583662033
+Completed 5 Batches, Loss: 0.36053457856178284
+Completed 6 Batches, Loss: 0.2229551076889038
+Completed 7 Batches, Loss: 0.04182775691151619
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
+Epoch 19
+[Training...]
+Completed 0 Batches, Loss: 0.14711911976337433
+Completed 1 Batches, Loss: 0.1893065720796585
+Completed 2 Batches, Loss: 0.17559261620044708
+Completed 3 Batches, Loss: 0.021132469177246094
+Completed 4 Batches, Loss: 0.19033783674240112
+Completed 5 Batches, Loss: 0.2631796896457672
+Completed 6 Batches, Loss: 0.15619663894176483
+Completed 7 Batches, Loss: 0.02443615533411503
+[Validating...]
+Completed 0 Batches
+Completed 1 Batches
+Completed 2 Batches
+Completed 3 Batches
+Completed 4 Batches
+Completed 5 Batches
+Completed 6 Batches
+Completed 7 Batches
+Completed 8 Batches
+Completed 9 Batches
+Completed 10 Batches
+Completed 11 Batches
+Completed 12 Batches
+Completed 13 Batches
+Completed 14 Batches
+Completed 15 Batches
